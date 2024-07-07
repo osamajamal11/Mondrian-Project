@@ -1,0 +1,42 @@
+.container{
+    width: 748px;
+    height: 748px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 320px 360px 50px;
+    grid-template-rows: 414px 295px 20px ;
+    gap: 9px;
+}
+.container1{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 130px 175px 20px;
+}
+.container2{
+    display: grid;
+    grid-template-columns: 198px 153px;
+    grid-template-rows: 20px;
+    gap: 9px;
+}
+.red{
+    background-color: red;
+}
+.white , .white-span1 , .white-span2{
+    background-color: #F0F1EC ;
+}
+.blue{
+    background-color: #004592 ;
+    border-bottom: 10px solid black;
+}
+.yellow{
+    background-color: #F9D01E;
+}
+.black{
+    background-color: #232629;
+}
+.white-span1{
+    grid-column: span 2;
+}
+.white-span2{
+    grid-row: span 3;
+}
